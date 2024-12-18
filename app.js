@@ -16,7 +16,7 @@ app.use((req,res,next)=>{
 })
 
 app.use('/',routes);
-const url = "mongodb://localhost:27017/amazon";
+const url = "mongodb://127.0.0.1:27017/amazon";
 const PORT = 5020;
 mongoose.connect(
     url,
